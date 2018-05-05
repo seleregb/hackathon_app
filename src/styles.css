@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import "~font-awesome/css/font-awesome.min.css";
+
+@import "~primeng/resources/primeng.min.css";
+
+/* @import "assets/floating-labels.css"; */
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
