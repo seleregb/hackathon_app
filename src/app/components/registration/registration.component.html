@@ -1,0 +1,77 @@
+<div class="alert alert-info" role="alert">
+  The Benefits Finder does not require or collect any personal information
+</div>
+<div class="card card-default" id="card1">
+  <div class="card-header">
+    <h5 class="card-title">
+      STEP {{activeIndex}}
+    </h5>
+  </div>
+  <div class="card-body"></div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" (click)="next()" class="btn btn-primary pull-right" *ngIf="showNxtBtn">Next</button>
+        <button type="button" (click)="previous()" class="btn btn-primary pull-right" style="margin-right:5px" *ngIf="showPrevBtn">Previous</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card card-default" id="card2" hidden="true">
+  <div class="card-header">
+    <h5 class="card-title">
+        STEP {{activeIndex}}
+    </h5>
+  </div>
+  <div class="card-body"></div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" (click)="next()" class="btn btn-primary pull-right"  *ngIf="showNxtBtn">Next</button>
+        <button type="button" (click)="previous()" class="btn btn-primary pull-right" style="margin-right:5px" *ngIf="showPrevBtn">Previous</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card card-default" id="card3" hidden="true">
+  <div class="card-header">
+    <h5 class="card-title">STEP {{activeIndex}}</h5>
+  </div>
+  <div class="card-body"></div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" (click)="next()" class="btn btn-primary pull-right"  *ngIf="showNxtBtn">Next</button>
+        <button type="button" (click)="previous()" class="btn btn-primary pull-right" style="margin-right:5px" *ngIf="showPrevBtn">Previous</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card card-default" id="card4" hidden="true">
+  <div class="card-header">
+    <h5 class="card-title">STEP {{activeIndex}}</h5>
+  </div>
+  <div class="card-body"></div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" (click)="next()" class="btn btn-primary pull-right"  *ngIf="showNxtBtn">Next</button>
+        <button type="button" (click)="previous()" class="btn btn-primary pull-right" style="margin-right:5px" *ngIf="showPrevBtn">Previous</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card card-default" id="card5" hidden="true">
+  <div class="card-header">
+    <h5 class="card-title">STEP {{activeIndex}}</h5>
+  </div>
+  <div class="card-body"></div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" (click)="next()" class="btn btn-primary pull-right"  *ngIf="showNxtBtn">Finish</button>
+        <button type="button" (click)="previous()" class="btn btn-primary pull-right" style="margin-right:5px" *ngIf="showPrevBtn">Previous</button>
+      </div>
+    </div>
+  </div>
+</div>

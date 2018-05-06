@@ -5,14 +5,18 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { VoucherComponent } from './components/voucher/voucher.component';
 import { VisualizationComponent } from './components/visualization/visualization.component';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { BenefitsComponent } from './components/benefits/benefits.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
-    { path: 'about', component: AboutComponent },
+    { path: 'registration', component: RegistrationComponent},
+    { path: 'visualization', component: VisualizationComponent},
+    { path: 'benefits', component: BenefitsComponent},
     { path: 'contact', component: ContactComponent },
     { path: 'voucher', component: VoucherComponent },
-    { path: 'visualization', component: VisualizationComponent }
+    
  ];
 
 export const AppRoutes: ModuleWithProviders = RouterModule.forRoot(routes);

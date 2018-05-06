@@ -1,7 +1,17 @@
 import {Component} from '@angular/core';
-import {NavbarComponent} from './components/navbar/navbar.component';
-import {LoginComponent} from './components/login/login.component';
-import {HeaderComponent} from './components/header/header.component';
+import {
+  HeaderComponent,
+  FooterComponent,
+  NavbarComponent,
+  HomeComponent,
+  AboutComponent,
+  BenefitsComponent,
+  RegistrationComponent,
+  VisualizationComponent,
+  ContactComponent,
+  VoucherComponent
+} from './components';
+import { LoggerService} from './services/logger.service';
 
 @Component({
   selector: 'app-root', 

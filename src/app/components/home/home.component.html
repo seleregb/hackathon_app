@@ -1,8 +1,9 @@
 <div class="starter-template">
-    <h1>Bootstrap starter template</h1>
+    <h1>Service Canada Remote Kiosk</h1>
     <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
 </div>
-<div id="home">
-  <h3>Clickable</h3>
-  <!-- <p-steps [model]="items" [(activeIndex)]="activeIndex" [readonly]="false" (activeIndexChange)="handleChange(activeIndex)"></p-steps> -->
+<div class="container">
+  <div class="text-center">
+    <button type="button" [@slideInOut]="slideState" class="btn btn-lg btn-info" (click)="navigateToRegistration()">Begin</button>
+  </div>
 </div>
