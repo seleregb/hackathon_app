@@ -1,0 +1,14 @@
+{
+  "name": "Hackhathon App",
+  "short_name": "HKCApp",
+  "description": "A dummy prototype",  
+  "icons": [{
+      "src": "assets/hack5.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#673ab7"
+}
