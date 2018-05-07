@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoadingService } from '../../services/loading.service';
 
 @Component({
   selector: 'app-voucher',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VoucherComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _loadingService: LoadingService) { }
+
+  currentDate = Date.now();
 
   ngOnInit() {
+    this._loadingService.show();
+    this._loadingService.hide(1500);
   }
 
 }

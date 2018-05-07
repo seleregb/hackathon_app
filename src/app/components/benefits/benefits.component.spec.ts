@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BenefitsComponent } from './benefits.component';
+import { LoadingService } from '../../services/loading.service';
+import { LoggerService } from '../../services/logger.service';
 
 describe('BenefitsComponent', () => {
   let component: BenefitsComponent;
@@ -8,7 +10,10 @@ describe('BenefitsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BenefitsComponent ]
+      declarations: [ BenefitsComponent ],
+      providers : [
+        LoadingService, LoggerService
+      ]
     })
     .compileComponents();
   }));

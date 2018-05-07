@@ -1,3 +1,23 @@
-<p>
-  voucher works!
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="card text-center">
+        <div class="card-header">
+          Generated Voucher
+        </div>
+        <img class="card-img-top" src="../../../assets/barcode.png" alt="voucher code">
+        <div class="card-body">
+          <!-- <h5 class="card-title">Special title treatment</h5> -->
+          <p class="card-text">Use this code to visit your nearest service canada centre to access your benefits</p>
+          <p>Appointment Date: {{currentDate | date: 'mediumDate'}}</p>
+          <a href="#" class="btn btn-primary">Show Locations <i class="fa fa-link"></i></a>
+        </div>
+        <!-- <div class="card-footer text-muted">
+          
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3"></div>
+</div>

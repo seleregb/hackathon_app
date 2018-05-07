@@ -19,7 +19,7 @@ export class BenefitsComponent implements OnInit {
     this._loadingService.show();
     this.serviceBenefits = benefitData.slice(0,4);
     console.log('collected benfits data', this.serviceBenefits);
-    this._loadingService.hide(2000);
+    this._loadingService.hide(1500);
   }
 
 }
