@@ -1,5 +1,6 @@
 {
   "configVersion": 1,
+  "timestamp": 1562298239255,
   "index": "https://seleregb.github.io/hackathon_app/index.html",
   "assetGroups": [
     {
@@ -30,15 +31,15 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://seleregb.github.io/hackathon_app/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://seleregb.github.io/hackathon_app/assets/animate.css": "46fed2c46e1673370e619cb3a54ce8da46d0145e",
-    "https://seleregb.github.io/hackathon_app/index.html": "19e29c7824bc95d62d89e80afe2ee548d620f48d",
     "https://seleregb.github.io/hackathon_app/assets/barcode.png": "aa79a0011636af95dbe2c1add1216d97c15425e3",
     "https://seleregb.github.io/hackathon_app/assets/floating-labels.css": "8f582b348434f00a5cd9ed9014c332af583fbafb",
     "https://seleregb.github.io/hackathon_app/assets/hack5.png": "a67ca528c8e6008537bbd60edc45804e10192695",
     "https://seleregb.github.io/hackathon_app/assets/hack5.svg": "05b5771658350e06143a4503fc30bae929261e5e",
-    "https://seleregb.github.io/hackathon_app/assets/questions_data.js": "ef913edfee7d8fd45617468bbe51afc0b7e9daa3",
-    "https://seleregb.github.io/hackathon_app/assets/sample_data.js": "5644b5eab37d68e28dbfb636820b2c75542a3289"
+    "https://seleregb.github.io/hackathon_app/assets/questions_data.js": "88fde67332cd2d3a2ffc04412dafb93e01921352",
+    "https://seleregb.github.io/hackathon_app/assets/sample_data.js": "5f7694ed1d755e231b01ccea15b4584abce93f7c",
+    "https://seleregb.github.io/hackathon_app/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://seleregb.github.io/hackathon_app/index.html": "8aa8b449b14bb35672d9df7e9496e4c3250352e8"
   },
   "navigationUrls": [
     {
@@ -47,15 +48,15 @@
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
   ]
 }
