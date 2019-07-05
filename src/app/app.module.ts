@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
@@ -45,7 +44,7 @@ import { LoadingService } from './services/loading.service';
     BenefitsComponent
   ],
   imports: [
-    BrowserModule,BrowserAnimationsModule, NgbModule.forRoot(),
+    BrowserModule,BrowserAnimationsModule,
     AppRoutes, ReactiveFormsModule, FormsModule,
     environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
